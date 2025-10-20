@@ -40,7 +40,7 @@ app.get('/api/users', (req, res) => {
         }
         res.json(results);
     })
-})
+});
 
 app.post('/api/users', (req, res) =>{
     const { nama, nim, kelas} = req.body;
